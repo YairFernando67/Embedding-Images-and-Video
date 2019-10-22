@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: #f9f9f9;
+  background-color: #eeeeee;
 }
 .header{
   background-color: #ffffff;
@@ -99,11 +99,6 @@ section{
   margin-right: 20px;
 
 }
-aside{  
-  width: 30%;
-  background-color: aqua;
-  height: 1000px;
-}
 .containerVideo{
   margin: 0 auto;
   width: 100%;
@@ -136,15 +131,17 @@ aside{
 .subscribe .subButton{
   background-color: red;
   border: none;
-  width: 75px;
+  width: 120px;
   height: 35px;
+  padding: 4px;
   border-radius: 3px 0px 0px 3px;
   color: #fff;
 }
 .channelInfo span{
   padding: 7px;
-  border: 1px solid #ccc;
+  border: 1px solid #aeaeae;
   border-radius: 0px 3px 3px 0px;
+  color: #aeaeae;
 }
 .info .left,.right{
   display: flex;
@@ -165,6 +162,7 @@ aside{
 }
 .info .imageInfo img{
   width: 100%;
+  height: 100%;
 }
 .channelInfo{
   margin-left: 20px;
@@ -194,6 +192,66 @@ aside{
 }
 
 
+aside{  
+  width: 38%;
+  background-color: #fff;
+  height: auto;
+  padding: 5px;
+}
+.headerVideo,.thumbnail{
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+}
+.headerVideo .right{
+  display: flex;
+}
+.headerVideo .left{
+  display: flex;
+  align-items: center;
+}
+.right small, .left small{
+  font-weight: bold;
+}
+.left img{
+  height: 25px;
+  width: 30px;
+}
+.videos{
+  margin-top: 5px;
+}
+.thumbnail{
+  border-bottom: 1px solid #aeaeae;
+  margin-bottom: 5px;
+}
+.thumbnail .title{
+  margin: 0px;
+}
+.thumbnail .right{
+  width: 250px;
+  margin-bottom: 10px;
+}
+.thumbnail .right img{
+  width: 100%;
+}
+
+/* Description Vide */
+.descriptionVideo{
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fff;
+}
+.descriptionVideo .content{
+  padding: 3px;
+  border-bottom: 1px solid #aeaeae;
+  margin-bottom: 10px;
+}
+.content p.description{
+  margin-bottom: 15px;
+}
+.descriptionVideo .center{
+  text-align: center;
+}
 
 /* MEDIAS */
 @media all and (max-width: 600px) {
