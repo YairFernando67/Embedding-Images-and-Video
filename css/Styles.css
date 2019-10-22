@@ -86,6 +86,112 @@ li.ml0{
   color: #fff;
 }
 
+/* mainContent */
+.wrap{
+  margin-top: 50px;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+section{
+  width: 100%;
+  margin: 0 auto;
+  margin-right: 20px;
+
+}
+aside{  
+  width: 30%;
+  background-color: aqua;
+  height: 1000px;
+}
+.containerVideo{
+  margin: 0 auto;
+  width: 100%;
+}
+.containerVideo .video{
+  width: 100%;
+}
+.containerVideo .video iframe{
+  width: 100%;
+  height: 600px;
+}
+.channelDetails{
+  padding: 10px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+.channelDetails h2{
+  margin-top: 0;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+}
+.info .left{
+  margin-bottom: 10px;
+}
+.channelInfo .subscribe{
+  display: flex;
+}
+.subscribe .subButton{
+  background-color: red;
+  border: none;
+  width: 75px;
+  height: 35px;
+  border-radius: 3px 0px 0px 3px;
+  color: #fff;
+}
+.channelInfo span{
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 0px 3px 3px 0px;
+}
+.info .left,.right{
+  display: flex;
+}
+.right .views{
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 2px solid blue;
+  width: 200px;
+  justify-content: flex-end;
+}
+.views p{
+  font-size: 24px;
+  margin-bottom: 3px;
+}
+.info .imageInfo{
+  width: 100px;
+}
+.info .imageInfo img{
+  width: 100%;
+}
+.channelInfo{
+  margin-left: 20px;
+}
+.icons{
+  display: flex;
+  border-top: 1px solid #6c7b95;
+  align-items: center;
+  justify-content: space-between;
+}
+.icons .left,.right{
+  display: flex;
+}
+.icons .add,.share,.more,.like,.dislike{
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.icons .like{
+  margin-top: 10px;
+  
+}
+.icons .dislike{
+  margin-top: 10px;
+  
+}
 
 
 
