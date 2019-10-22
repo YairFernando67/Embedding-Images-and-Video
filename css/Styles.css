@@ -252,6 +252,25 @@ aside{
 .descriptionVideo .center{
   text-align: center;
 }
+.comments{
+  display: flex;
+  margin-top: 10px;
+  background-color: #fff;
+  justify-content: center;
+}
+.comments .loading{
+  width: 50px;
+  display: flex;
+  align-items: center;
+  padding: 40px 0px;
+}
+.loading .spinner{
+  width: 100%;
+}
+.loading small{
+  color: #aeaeae;
+  font-weight: bold;
+}
 
 /* MEDIAS */
 @media all and (max-width: 600px) {
