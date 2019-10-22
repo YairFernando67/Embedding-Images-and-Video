@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: #f9f9f9;
+}
+.header{
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+nav {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 70px;
+}
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0px;
+  width: 90%;
+  padding: 0px;
+  align-items: center;
+  margin: 0 auto;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+  flex: 1 1 auto;
+}
+li.ml0{
+  margin: 0px;
+  width: 0px;
+}
+.menu {
+  width: 40px;
+}
+.logo {
+  width: 200px;
+  height: 70px;;
+}
+.logo img {
+  width: 80%;
+  height: 100%;
+}
+.long {
+  flex: 5 1 auto;
+  width: 60%;
+}
+.divForm {
+  display: flex;
+  flex-flow: column;
+}
+.form {
+  display: flex;
+  flex-flow: row;
+}
+.upload {
+  width: 40px;
+}
+.searchbar {
+  width: 50%;
+  padding: 12px;
+  margin: 0 auto;
+  margin-right: 0px;
+}
+.btn {
+  background-image: url(../img/lupa.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  border: 1px solid #6c7b95;
+  padding: 22px;
+  height: 40px;
+  width: 87px;
+  position: relative;
+  left: -1px;
+  margin: 0 auto;
+  margin-left: 0px;
+}
+.signIn {
+  background-color: #167ac6;
+  border: none;
+  width: 75px;
+  height: 35px;
+  border-radius: 3px;
+  color: #fff;
+}
+
+
+
+
+/* MEDIAS */
+@media all and (max-width: 600px) {
+  ul {
+    flex-direction: column;
+  }
+}
