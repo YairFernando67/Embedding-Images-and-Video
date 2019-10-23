@@ -276,13 +276,16 @@ aside{
 footer{
   width: 100%;
   background-color: white;
+  height: 200px;
 }
 footer .footer{
   width: 80%;
   margin: 0 auto;
+  margin-top: 100px;
   border-top: 1px solid #aeaeae;
 }
 .footer section{
+  height: 80px0;
   display: flex;
   width: 90%;
   border-bottom: 1px solid #aeaeae;
@@ -313,7 +316,35 @@ footer .footer{
   background-color: white;
   margin-left: 10px;
 }
-
+.footer .menu-nav{
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: none;
+}
+.menu-nav ul{
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  align-self: end;
+  width: auto;
+}
+.menu-nav ul li{
+  flex: 10px 10px 10px;
+  margin: 3px 25px;
+}
+.menu-nav ul li a{
+  color: #3B3B3B;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 0px;
+  cursor: pointer;
+}
+.menu-nav .noBold li a{
+  font-weight: normal;
+}
 
 /* MEDIAS */
 @media all and (max-width: 600px) {
