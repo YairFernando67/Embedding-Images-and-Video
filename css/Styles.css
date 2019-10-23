@@ -272,6 +272,49 @@ aside{
   font-weight: bold;
 }
 
+/*Footer*/
+footer{
+  width: 100%;
+  background-color: white;
+}
+footer .footer{
+  width: 80%;
+  margin: 0 auto;
+  border-top: 1px solid #aeaeae;
+}
+.footer section{
+  display: flex;
+  width: 90%;
+  border-bottom: 1px solid #aeaeae;
+  align-items: center;
+}
+.footer .language{
+  background-image: url(../img/language.PNG);
+  
+}
+.footer .help{
+  background-image: url(../img/help.PNG);
+}
+.footer .history{
+  background-image: url(../img/history.PNG);
+}
+.footer .history,.help,.language{
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+.footer button{
+  width: 110px;
+  height: 30px;
+  padding: 5px 10px;
+  color: black;
+  font-size: 14px;
+  border: 1px solid #aeaeae;
+  background-color: white;
+  margin-left: 10px;
+}
+
+}
 /* MEDIAS */
 @media all and (max-width: 600px) {
   ul {
